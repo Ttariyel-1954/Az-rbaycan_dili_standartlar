@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.env
+.Renviron
+data/raw/*.pdf
+.DS_Store
+*.log
+*.sql.gz
+*.dump
