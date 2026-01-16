@@ -5,13 +5,11 @@ library(DBI)
 
 setwd("~/Desktop/Azərbaycan_dili_standartlar")
 
-# Standartları oxuyuruq
 standards <- read_csv("data/processed/extracted_standards.csv", 
                       show_col_types = FALSE)
 
 cat("📊 Yüklənəcək standartlar:", nrow(standards), "\n\n")
 
-# Məzmun sahələrini map edirik
 content_area_mapping <- tibble(
   code = c(1, 2, 3, 4),
   area_az = c("Dinləmə və Danışma", "Oxu", "Yazı", "Dil vahidləri")
@@ -23,7 +21,6 @@ standards <- standards %>%
 cat("=== MƏZMUN SAHƏLƏRİNƏ GÖRƏ BÖLGÜ ===\n")
 standards %>% count(content_area_code, area_az) %>% print()
 
-# PostgreSQL-ə qoşuluruq
 cat("\n🔌 PostgreSQL-ə qoşulur...\n")
 con <- dbConnect(
   PostgreSQL(),
@@ -34,18 +31,16 @@ con <- dbConnect(
 )
 cat("✅ Qoşuldu!\n\n")
 
-# Əvvəlki standartları təmizləyirik
-cat("🧹 Köhnə standartlar təmizlənir...\n")
+# DÜZGÜN SİLMƏ - əvvəl mapping, sonra standartlar
+cat("🧹 Köhnə məlumatlar təmizlənir...\n")
+dbExecute(con, "DELETE FROM reading_literacy.standard_framework_mapping")
 dbExecute(con, "DELETE FROM reading_literacy.curriculum_standards")
 cat("✅ Təmizləndi!\n\n")
 
-# I sinif grade_id
 grade_1_id <- dbGetQuery(con, 
   "SELECT grade_id FROM reading_literacy.grades WHERE grade_level = 1 LIMIT 1")$grade_id
 
 cat("I sinif ID:", grade_1_id, "\n\n")
-
-# Standartları yükləyirik
 cat("📥 Standartlar bazaya yüklənir...\n")
 
 for(i in 1:nrow(standards)) {
@@ -68,7 +63,6 @@ for(i in 1:nrow(standards)) {
 
 cat("✅ Bütün standartlar yükləndi!\n\n")
 
-# Yoxlama
 result <- dbGetQuery(con, 
   "SELECT content_area, COUNT(*) as count 
    FROM reading_literacy.curriculum_standards 

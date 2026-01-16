@@ -1,13 +1,53 @@
 # Tam mapping sistemi - bütün standartlar üçün
-source('01_setup_claude_api.R')
+library(httr)
+library(jsonlite)
+library(tidyverse)
 library(RPostgreSQL)
 library(DBI)
+library(dotenv)
 
 setwd("~/Desktop/Azərbaycan_dili_standartlar")
+load_dot_env()
 
-# JSON təmizləmə funksiyası
+# API funksiyaları
+get_api_key <- function() {
+  api_key <- Sys.getenv("ANTHROPIC_API_KEY")
+  if(api_key == "") stop("⚠️  ANTHROPIC_API_KEY .env faylında tapılmadı!")
+  return(api_key)
+}
+
+call_claude_api <- function(prompt, system_prompt = NULL) {
+  api_key <- get_api_key()
+  messages <- list(list(role = "user", content = prompt))
+  
+  body <- list(
+    model = "claude-sonnet-4-20250514",
+    max_tokens = 4000,
+    messages = messages
+  )
+  
+  if(!is.null(system_prompt)) body$system <- system_prompt
+  
+  response <- POST(
+    url = "https://api.anthropic.com/v1/messages",
+    add_headers(
+      "x-api-key" = api_key,
+      "anthropic-version" = "2023-06-01",
+      "content-type" = "application/json"
+    ),
+    body = toJSON(body, auto_unbox = TRUE),
+    encode = "raw"
+  )
+  
+  if(status_code(response) != 200) {
+    stop("API xətası: ", content(response, "text"))
+  }
+  
+  result <- content(response, "parsed")
+  return(result$content[[1]]$text)
+}
+
 clean_json <- function(text) {
-  # Markdown code block təmizləyirik
   text <- gsub("```json\\s*", "", text)
   text <- gsub("```\\s*", "", text)
   text <- str_trim(text)
@@ -19,16 +59,16 @@ cat("🔌 Bazaya qoşulur...\n")
 con <- dbConnect(PostgreSQL(), dbname = "azerbaijan_language_standards",
                  host = "localhost", port = 5432, user = Sys.getenv("USER"))
 
-# Yalnız "Oxu" standartlarını götürürük
+# Oxu standartlarını götürürük (ilk 10)
 standards <- dbGetQuery(con, 
   "SELECT standard_id, standard_code, content_area, standard_text_az 
    FROM reading_literacy.curriculum_standards 
    WHERE content_area = 'Oxu'
-   ORDER BY standard_code")
+   ORDER BY standard_code
+   LIMIT 10")
 
-cat("📊 Oxu standartları:", nrow(standards), "\n\n")
+cat("📊 Standart sayı:", nrow(standards), "\n\n")
 
-# System prompt
 system_prompt <- "Sən Azərbaycan dili təhsili və PISA/PIRLS qiymətləndirmə ekspertisən.
 
 PISA aspektləri:
@@ -43,51 +83,42 @@ PIRLS aspektləri:
 - PIRLS_INT: Fikirləri birləşdirmək
 - PIRLS_EXM: Məzmunu təhlil etmək
 
-Cavab YALNIZ JSON formatında, heç bir əlavə mətn olmadan:
+Cavab YALNIZ JSON formatında:
 {
   \"primary_aspects\": [\"kod1\", \"kod2\"],
   \"alignment_strength\": \"high/medium/low\",
   \"reasoning\": \"Azərbaycan dilində qısa izah\"
 }"
 
-# Mapping məlumatlarını saxlayacağıq
-mappings_df <- tibble()
-
 cat("🤖 Standartlar uyğunlaşdırılır...\n\n")
 
-for(i in 1:min(10, nrow(standards))) {  # İlk 10 standart
+success_count <- 0
+
+for(i in 1:nrow(standards)) {
   std <- standards[i,]
   
-  cat(sprintf("[%d/%d] %s - %s\n", i, nrow(standards), 
-              std$standard_code, substr(std$standard_text_az, 1, 50)))
+  cat(sprintf("[%d/%d] %s\n", i, nrow(standards), std$standard_code))
   
   prompt <- sprintf(
     "Standart: %s
 Mətn: %s
 
-JSON formatında uyğunlaşdır (heç bir əlavə mətn olmadan):",
+JSON formatında uyğunlaşdır:",
     std$standard_code, std$standard_text_az
   )
   
   tryCatch({
     response <- call_claude_api(prompt, system_prompt)
-    
-    # JSON təmizləyirik
     clean_response <- clean_json(response)
-    
-    # Parse edirik
     mapping <- fromJSON(clean_response)
     
-    # Hər aspekt üçün ayrıca sətir
     for(aspect_code in mapping$primary_aspects) {
-      # Aspect ID tapırıq
       aspect_info <- dbGetQuery(con, sprintf(
         "SELECT aspect_id FROM reading_literacy.reading_aspects 
          WHERE aspect_code = '%s' LIMIT 1", aspect_code
       ))
       
       if(nrow(aspect_info) > 0) {
-        # Bazaya yazırıq
         insert_query <- sprintf(
           "INSERT INTO reading_literacy.standard_framework_mapping 
            (standard_id, aspect_id, alignment_strength, mapping_notes, mapped_by) 
@@ -97,40 +128,21 @@ JSON formatında uyğunlaşdır (heç bir əlavə mətn olmadan):",
           mapping$alignment_strength,
           gsub("'", "''", mapping$reasoning)
         )
-        
         dbExecute(con, insert_query)
       }
     }
     
-    cat("   ✅", paste(mapping$primary_aspects, collapse = ", "), 
-        "-", mapping$alignment_strength, "\n")
-    
-    Sys.sleep(1)  # Rate limiting
+    cat("   ✅", paste(mapping$primary_aspects, collapse = ", "), "\n")
+    success_count <- success_count + 1
+    Sys.sleep(1.5)
     
   }, error = function(e) {
     cat("   ⚠️  Xəta:", e$message, "\n")
   })
 }
 
-# Nəticələri yoxlayırıq
-cat("\n\n=== MAPPING NƏTİCƏLƏRİ ===\n")
-results <- dbGetQuery(con, 
-  "SELECT 
-     cs.standard_code,
-     cs.standard_text_az,
-     ra.aspect_code,
-     ra.aspect_name_az,
-     sfm.alignment_strength
-   FROM reading_literacy.standard_framework_mapping sfm
-   JOIN reading_literacy.curriculum_standards cs ON sfm.standard_id = cs.standard_id
-   JOIN reading_literacy.reading_aspects ra ON sfm.aspect_id = ra.aspect_id
-   ORDER BY cs.standard_code, ra.aspect_code")
-
-print(results)
-
-# CSV-yə saxlayırıq
-write_csv(results, "data/processed/standard_framework_mappings.csv")
-cat("\n✅ Mappings saxlanıldı: data/processed/standard_framework_mappings.csv\n")
+cat("\n=== NƏTİCƏ ===\n")
+cat("✅ Uğurlu:", success_count, "/", nrow(standards), "\n")
 
 dbDisconnect(con)
-cat("✅ Proses tamamlandı!\n")
+cat("\n✅ Proses tamamlandı!\n")
