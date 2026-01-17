@@ -1,0 +1,18 @@
+~/Desktop/Azərbaycan_dili_standartlar/
+│
+├── server_tools/
+│   └── test_package_creator.R          # ARTI-də işləyir
+│
+├── client_app/
+│   └── school_test_app.R                # Məktəbə göndərilir
+│
+├── sync_tools/
+│   └── results_sync.R                   # ARTI-də işləyir
+│
+├── test_packages/                       # YARADILAN PAKETLƏR
+│   ├── test_grade_1_20260117.db        # I sinif paketi
+│   ├── test_grade_2_20260117.db        # II sinif paketi
+│   ├── test_grade_3_20260117.db        # III sinif paketi
+│   └── test_grade_4_20260117.db        # IV sinif paketi
+│
+└── dashboard_main.R                     # ARTI monitoring
