@@ -9,6 +9,7 @@ library(RPostgreSQL)
 library(tidyverse)
 library(DT)
 library(jsonlite)
+library(markdown)
 
 get_db <- function() {
   dbConnect(PostgreSQL(), 
@@ -80,6 +81,34 @@ ui <- dashboardPage(
         font-weight: bold;
         color: #f39c12;
         margin-bottom: 8px;
+      }
+      /* Cədvəl styling */
+      .text-content table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+        font-size: 16px;
+      }
+      .text-content th {
+        background-color: #3c8dbc;
+        color: white;
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+      }
+      .text-content td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      .text-content tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      .text-content pre {
+        background: #f5f5f5;
+        padding: 15px;
+        border-left: 4px solid #3c8dbc;
+        overflow-x: auto;
+        font-family: 'Courier New', monospace;
       }
     "))),
     
@@ -251,7 +280,8 @@ server <- function(input, output, session) {
             strong("Sual sayı: "), nrow(questions)),
           
           div(class = "text-content",
-              p(text$content_az)
+              # Markdown render
+              HTML(markdown::renderMarkdown(text = text$content_az))
           ),
           
           h4("Suallar:", style = "color: #3c8dbc; margin-top: 20px;"),
@@ -405,7 +435,7 @@ server <- function(input, output, session) {
           tagList(
             hr(),
             h3(sprintf("Mətn %d: %s", i, text$title_az)),
-            p(text$content_az, style = "background: #f9f9f9; padding: 20px; line-height: 1.8;"),
+            HTML(markdown::renderMarkdown(text = text$content_az)),
             h4("Suallar:"),
             lapply(1:nrow(questions), function(j) {
               q <- questions[j,]

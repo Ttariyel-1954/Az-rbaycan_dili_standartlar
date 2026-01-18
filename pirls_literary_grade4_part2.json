@@ -1,0 +1,255 @@
+{
+  "package_name": "PIRLS Ədəbi Mətnlər IV sinif - Part 2",
+  "created_date": "2026-01-17",
+  "total_texts": 10,
+  "grade_level": 4,
+  "text_type": "Nəqli mətn (Literary Narration)",
+  
+  "texts": [
+    {
+      "text_number": 3,
+      "title": "Babanın Köhnə Saatı",
+      "word_count": 348,
+      "theme": "Vicdanlı qərar və dürüstlük",
+      "text": "Əli həyətdə oynayarkən kül mərkəzində bir şey parıldadı. Yaxınlaşıb baxanda gördü ki, qızıl saatdır. Onu əlinə alıb baxdı - çox qiymətli görünürdü. \"Bu nəyin saatıdır?\" - deyə düşündü.\n\nEvə qaçıb anasına göstərdi. Ana gözlərini yumub dedi: \"Bu sizin əmi Tofiqin babasının saatıdır. O, iki il əvvəl itirmişdi və çox kədərlənmişdi. Çünki saat onun babası yaddaşıdır.\"\n\nƏli çaşqın qaldı. Əmi Tofiq onların qonşusu idi və çox mehriban adam idi. Amma Əlinin ağlına başqa bir fikir gəldi: \"Ana, bu saatı saata satım? Mən o yeni futbol topu almaq istəyirəm. Hamıda var, məndə yoxdur.\"\n\nAna oğluna baxıb ciddi səslə dedi: \"Əli, bu saat sənin deyil. Başqasının əşyasını saxlamaq oğurluqdur. Hətta itmiş əşya olsa belə. Sən özünü necə hiss edərsən əgər sənin sevimli oyuncağını kimsə tapsın və geri qaytarmasın?\"\n\nƏli başını aşağı saldı. Anası haqlı idi. O, yeni futbol topu çox istəyirdi, amma saatın əmi Tofiqin nə qədər əziz olduğunu da bilirdi. \"Amma yoldaşlarım məni lağa qoyacaqlar, top yoxdur deyə\" - dedi Əli.\n\nAna oğlunun çiynindən tutub dedi: \"Əzizim, düzgün iş etmək bəzən çətindir. Amma vicdanlı olmaq hər şeydən vacibdir. Top alıb-almamaq vacib deyil. Vacib olan doğru insan olmaqdır.\"\n\nƏli saatı götürüb əmi Tofiqin qapısını döydü. Qoca saatı görəndə gözləri yaşardı. \"Sən mənim nəvəm kimisinə!\" - deyə Əlini qucaqladı. Həmin axşam əmi Tofiq Əliyə hədiyyə gətirdi - köhnə, amma hələ yaxşı futbol topu. \"Bu mənim gəncliyimdən qalandır. İndi sənin olsun, vicdanlı oğlan.\"\n\nƏli o gecə çox xoşbəxt yuxuya getdi. Top yeni deyildi, amma onu vicdanla qazanmışdı.",
+      "emotional_arc": "Həris sevinc → Daxili konflikt → Vicdanlı qərar → Daxili rahatlıq",
+      "theme_message": "Dürüstlük material qazancdan daha dəyərlidir",
+      
+      "questions": [
+        {
+          "question_number": 1,
+          "question_text": "Əli nə tapdı?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Qızıl üzük"},
+            {"option": "B", "text": "Qızıl saat"},
+            {"option": "C", "text": "Pul"},
+            {"option": "D", "text": "Futbol topu"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 2,
+          "question_text": "Saat kimin idi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Əlinin babasının"},
+            {"option": "B", "text": "Əlinin atasının"},
+            {"option": "C", "text": "Əmi Tofiqin babasının"},
+            {"option": "D", "text": "Məktəb müəlliminin"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "question_number": 3,
+          "question_text": "Əli əvvəlcə saatla nə etmək istəyirdi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Saxlamaq"},
+            {"option": "B", "text": "Satıb futbol topu almaq"},
+            {"option": "C", "text": "Anasına hədiyyə etmək"},
+            {"option": "D", "text": "Muzeyə vermək"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 4,
+          "question_text": "Ana Əliyə nə dedi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "interpret",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Saatı sat və topu al"},
+            {"option": "B", "text": "Başqasının əşyasını saxlamaq oğurluqdur"},
+            {"option": "C", "text": "Əmi Tofiqə verməsinə ehtiyac yoxdur"},
+            {"option": "D", "text": "Saatı gizlət"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 5,
+          "question_text": "Əmi Tofiq Əliyə nə hədiyyə verdi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Yeni futbol topu"},
+            {"option": "B", "text": "Pul"},
+            {"option": "C", "text": "Köhnə futbol topu"},
+            {"option": "D", "text": "Başqa saat"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "question_number": 6,
+          "question_text": "Əli niyə əvvəl saatı qaytarmaq istəmədi? Onun daxili konfliktini izah edin.",
+          "question_type": "short_response",
+          "cognitive_level": "interpret",
+          "max_score": 2,
+          "sample_answer": "Əli çox istəyirdi yeni futbol topu alsın çünki hamıda var, ondə yoxdu və yoldaşları lağa qoyurdu. Saat satıb topu ala biləcəyini düşündü. Amma bilirdi ki, bu başqasının əşyasıdır."
+        },
+        {
+          "question_number": 7,
+          "question_text": "Anasının sözləri Əlinin qərarına necə təsir etdi? Mətnə əsasən izah edin.",
+          "question_type": "short_response",
+          "cognitive_level": "interpret",
+          "max_score": 2,
+          "sample_answer": "Ana Əliyə öyrətdi ki, düzgün iş bəzən çətindir, amma vicdanlı olmaq daha vacibdir. Həmçinin Əlini özünü əmi Tofiqin yerinə qoymağa vadar etdi. Bu Əlini saatı qaytarmağa qərar verməyə sövq etdi."
+        },
+        {
+          "question_number": 8,
+          "question_text": "Əli sonunda niyə xoşbəxt yuxuya getdi? Topu əldə etdiyi üçünmü, yoxsa başqa səbəbdənmi?",
+          "question_type": "short_response",
+          "cognitive_level": "evaluate",
+          "max_score": 2,
+          "sample_answer": "Əli xoşbəxt idi çünki düzgün iş etmişdi və vicdanı rahat idi. Top yeni deyildi, amma onu vicdanla qazanmışdı. O, özünü doğru insan kimi hiss edirdi və bu topdan daha əhəmiyyətli idi."
+        },
+        {
+          "question_number": 9,
+          "question_text": "Bu hekayədə \"vicdanlı olmaq\" nə deməkdir? Əlinin hərəkətlərindən istifadə edərək izah edin.",
+          "question_type": "extended_response",
+          "cognitive_level": "evaluate",
+          "max_score": 3,
+          "sample_answer": "Vicdanlı olmaq düzgün işi etmək deməkdir, hətta bu çətin olsa belə. Əli saatı satıb istədiyi topu ala bilərdi. Heç kim bilməzdi. Amma o, başqasının xoşbəxtliyini öz istəyindən üstün tutdu. Vicdanlı olmaq həm də empatiya deməkdir - Əli əmi Tofiqin saatın ona nə qədər dəyərli olduğunu anladı. Vicdanlı insan qısamüddətli qazancdan çox, uzunmüddətli daxili rahatlığı seçir. Əli topdan daha vacib bir şey qazandı - özünə hörmət və başqalarının etibarı."
+        },
+        {
+          "question_number": 10,
+          "question_text": "Siz Əlinin yerində olsaydınız nə edərdiniz? Qərarınızı əsaslandırın və alternativ yanaşmaları müzakirə edin.",
+          "question_type": "extended_response",
+          "cognitive_level": "evaluate",
+          "max_score": 3,
+          "sample_answer": "Mən də Əli kimi saatı qaytarardım, çünki bilirəm ki, başqasının əşyasını saxlamaq düz deyil. Amma bəlkə daha çətinlik çəkərdim, çünki top çox istəyirdim. Alternativ olaraq, mən anama və ya atama deyə bilərdim ki, ev işlərində kömək edim və pul qazanım. Və ya qənaət edib öz pulumla top ala bilərdim. Əlinin yolu ən düzgünü idi, çünki o, dərhal düzgün qərarı verdi. Mən öyrəndim ki, hər zaman asan yol olur, amma düzgün yol seçmək xarakterini göstərir."
+        }
+      ]
+    },
+    
+    {
+      "text_number": 4,
+      "title": "Yeni Qonşu",
+      "word_count": 362,
+      "theme": "Fərqlilikləri qəbul etmək",
+      "text": "Zeynəbin sinfinə yeni şagird gəldi. Onun adı Musa idi və Şəkidən köçmüşdü. Musa Azərbaycan dilində danışırdı, amma şəki ləhcəsi ilə. Bəzi sözləri fərqli deyirdi. Həmçinin bəzi adətləri də başqa idi.\n\nTeneffüsdə Musa çayını şəkərsiz içdi. Zeynəb təəccüblə soruşdu: \"Sən çaya şəkər qoymurusan?\" Musa gülümsünərək cavab verdi: \"Yox, biz Şəkidə çayı şəkərsiz içirik. Daha səhhətlidir.\" Sinifin bəzi uşaqları bu işə gülməyə başladılar. \"Nə qəribə!\" - dedilər.\n\nNahar vaxtı Musa çantasından ev yeməyi çıxartdı. O, piti yemək istəyirdi. Zeynəbgilərdə adətən düşbərə və ya plovdu. Bir neçə uşaq Musanın yeməyinə baxıb pıçıldaşdılar: \"Bizimkilər kimi yemək yoxdur onlarda.\"\n\nZeynəb evə gələndə anasına danışdı: \"Ana, yeni şagird çox qəribədir. Çayını fərqli içir, yeməyi fərqlidi, danışığı da fərqlidir.\" Anası oturub Zeynəbə izah etdi: \"Qızım, Azərbaycan böyük ölkədir. Hər bölgənin öz ləhcəsi, adətləri və mətbəxi var. Bu qəribə deyil, bu zənginlikdir. Təsəvvür et hamımız eynisə - nə darıxdırıcı olardı!\"\n\n\"Amma onlar bizim kimi deyil\" - dedi Zeynəb. Anası cavab verdi: \"Fərqli olmaq pis deyil. Vacib olan insanın qəlbi, mehriban və dürüst olması. Musa yaxşı uşaq görünür. Onunla dost olmağa çalış, fərqliliklərindən öyrən.\"\n\nErtəsi gün məktəbdə Zeynəb Musanın yanına oturdu. \"Musa, sən Şəkidə hansı oyunları oynayırdınız?\" - soruşdu. Musanın üzü işıqlandı. O, Zeynəbə çoxlu maraqlı oyunlardan danışdı. Həmçinin Şəki xalvasının necə hazırlandığını izah etdi.\n\nBir həftədən sonra Musa sinfin ən məşhur uşaqlarından biri oldu. O, hamıya Şəki ləhcəsində maraqlı sözlər öyrədirdi. Zeynəb Musanın anasından piti bişirməyi öyrəndi və çox xoşladı. Artıq heç kəs Musanı \"fərqli\" demirdi. Hamı onu sevmişdi.\n\nZeynəb başa düşdü ki, anası haqlıymış. Fərqliliklər bizi zənginləşdirir, ayırmır.",
+      "emotional_arc": "Qərəzli məntəqə → Maraq → Qəbul və dostluq",
+      "theme_message": "Fərqliliklər zənginlikdir, bizi ayıran deyil, birləşdirən",
+      
+      "questions": [
+        {
+          "question_number": 1,
+          "question_text": "Musa haradan köçmüşdü?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Gəncədən"},
+            {"option": "B", "text": "Şəkidən"},
+            {"option": "C", "text": "Lənkərandan"},
+            {"option": "D", "text": "Naxçıvandan"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 2,
+          "question_text": "Musa çayını necə içirdi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Çox şəkərli"},
+            {"option": "B", "text": "Şəkərsiz"},
+            {"option": "C", "text": "Südlü"},
+            {"option": "D", "text": "Soyuq"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 3,
+          "question_text": "Musanın sevimli yeməyi nə idi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Düşbərə"},
+            {"option": "B", "text": "Plov"},
+            {"option": "C", "text": "Piti"},
+            {"option": "D", "text": "Dolma"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "question_number": 4,
+          "question_text": "Zeynəbin anası nə dedi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "interpret",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Musa ilə dost olma"},
+            {"option": "B", "text": "Fərqliliklər zənginlikdir"},
+            {"option": "C", "text": "Hamı eyni olmalıdır"},
+            {"option": "D", "text": "Şəki insanları qəribədir"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 5,
+          "question_text": "Bir həftədən sonra nə dəyişdi?",
+          "question_type": "multiple_choice",
+          "cognitive_level": "retrieve",
+          "max_score": 1,
+          "options": [
+            {"option": "A", "text": "Musa məktəbi tərk etdi"},
+            {"option": "B", "text": "Musa ən məşhur uşaqlardan biri oldu"},
+            {"option": "C", "text": "Zeynəb Musadan qaçdı"},
+            {"option": "D", "text": "Heç nə dəyişmədi"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "question_number": 6,
+          "question_text": "Niyə uşaqlar əvvəl Musanı \"qəribə\" adlandırdılar? Onların düşüncəsini izah edin.",
+          "question_type": "short_response",
+          "cognitive_level": "interpret",
+          "max_score": 2,
+          "sample_answer": "Uşaqlar Musanı qəribə adlandırdılar çünki o, onlardan fərqli danışırdı, fərqli yemək yeyirdi və adətləri başqa idi. Onlar özlərinə oxşamayan hər şeyi \"qəribə\" hesab edirdilər və tanımadıqlarından qorxurdular."
+        },
+        {
+          "question_number": 7,
+          "question_text": "Zeynəbin münasibəti Musaya qarşı necə dəyişdi? Səbəblərini göstərin.",
+          "question_type": "short_response",
+          "cognitive_level": "interpret",
+          "max_score": 2,
+          "sample_answer": "Əvvəl Zeynəb Musanı qəribə hesab edirdi. Amma anası ilə danışdıqdan sonra Musa ilə dostluq etməyə başladı. Musa ilə tanış olduqca onun maraqlı bir insan olduğunu gördü və fərqlilikləri qəbul etməyi öyrəndi."
+        },
+        {
+          "question_number": 8,
+          "question_text": "\"Fərqliliklər bizi zənginləşdirir\" fikri hekayədə necə göstərilir? İki misalla izah edin.",
+          "question_type": "short_response",
+          "cognitive_level": "evaluate",
+          "max_score": 2,
+          "sample_answer": "Birinci, uşaqlar Şəki ləhcəsində yeni sözlər öyrəndilər ki, bu maraqlı idi. İkinci, Zeynəb piti bişirməyi öyrəndi və bu yeni yemək çox xoşladı. Hər iki halda Musanın fərqli mədəniyyəti hamıya yeni biliklər və təcrübələr verdi."
+        },
+        {
+          "question_number": 9,
+          "question_text": "Bu hekayə bize mədəni müxtəliflik haqqında nə öyrədir? Zeynəbin təcrübəsindən istifadə edərək izah edin.",
+          "question_type": "extended_response",
+          "cognitive_level": "evaluate",
+          "max_score": 3,
+          "sample_answer": "Hekayə öyrədir ki, fərqli mədəniyyətlərdən insanları qəbul etmək və onlardan öyrənmək vacibdir. Zeynəb əvvəl Musanın fərqliliyindən qorxurdu və onu \"qəribə\" hesab edirdi. Amma ona yaxınlaşıb maraqlandıqda Musanın çox maraqlı bilgiləri və əla xüsusiyyətləri olduğunu gördü. Anası ona öyrətdi ki, Azərbaycanın hər bölgəsinin öz zənginliyi var və bu fərqliliklər ölkəmizi daha maraqlı edir. Əgər hamımız eyni olsaydıq, yeni heç nə öyrənməzdik. Mədəni müxtəliflik bizi ayırmır, birləşdirir və zənginləşdirir."
+        },
+        {
+          "question_number": 10,
+          "question_text": "Sizin sinifinizə başqa bölgədən və ya ölkədən uşaq gəlsə, siz necə qarşılayardınız? Zeynəbin təcrübəsindən nə öyrəndiniz?",
+          "question_type": "extended_response",
+          "cognitive_level": "evaluate",
+          "max_score": 3,
+          "sample_answer": "Mən yeni uşağı mehriban qarşılayardım və ona kömək edərdim məktəbə alışmaqda. Zeynəbin təcrübəsindən öyrəndim ki, fərqli insanları tez \"qəribə\" adlandırmaq səhvdir. Əvvəlcə tanımaq və başa düşmək lazımdır. Mən ondan öz mədəniyyəti haqqında soruşardım və öz mədəniyyətimdən də ona danışardım. Bəlkə onun dilində bir neçə söz öyrənərdim və ya milli yeməyini dadardım. Zeynəb kimi mən də başa düşdüm ki, yeni dostlar tapmaq üçün açıq fikirli olmaq və fərqlilikləri qəbul etmək lazımdır. Hər bir insan bizə yeni bir şey öyrədə bilər."
+        }
+      ]
+    }
+  ]
+}
