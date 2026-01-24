@@ -1,0 +1,399 @@
+# ═══════════════════════════════════════════════════════════
+# PIRLS 2026 MƏTN PAKETİ
+# İNFORMASİYA MƏTNİ 1: İqlim Dəyişikliyi və Biz
+# Mövzu: Ekologiya, elm, beynəlxalq, cədvəl/qrafik
+# Söz sayı: 823
+# VİZUAL ELEMENTLƏR: Cədvəl 1, Cədvəl 2, Qrafik (ASCII)
+# ═══════════════════════════════════════════════════════════
+
+# İqlim Dəyişikliyi və Biz
+
+## İqlim Nədir?
+
+İqlim uzun müddət ərzində (30 il və ya daha çox) bir bölgədə müşahidə olunan orta hava şəraiti deməkdir. İqlim temperatur, yağıntı və küləyi əhatə edir.
+
+Hava və iqlim arasında fərq var. Hava bu gün və ya bu həftədəki şəraiti göstərir. İqlim isə uzun müddətdəki orta göstəricidir.
+
+Məsələn: Bakıda bu gün yağış yağa bilər (hava), amma Bakının iqlimi ümumiyyətlə quru və isti hesab olunur (iqlim).
+
+## İqlim Dəyişikliyi Problemi
+
+Son 100 ildə Yerin orta temperaturu təxminən 1.1°C artıb. Bu, kiçik dəyişiklik kimi görünsə də, planeti böyük təsir edir.
+
+### Temperatur Artımının Səbəbləri
+
+Əsas səbəb **istixana qazlarıdır**. Bu qazlar atmosferdə istilik saxlayır. Ən çox yayılan istixana qazları:
+
+1. **Karbon dioksid (CO₂)** - kömür, neft, qaz yandırdıqda çıxır
+2. **Metan (CH₄)** - heyvan fermaları və zibilliklə çıxır
+3. **Azot oksidi (N₂O)** - gübrələrdən çıxır
+
+**CƏDVƏL 1: İstixana Qazlarının Mənbələri**
+
+```
+┌──────────────────────┬─────────────────────────────────┬────────────┐
+│ Qaz                  │ Əsas Mənbə                      │ Faiz (%)   │
+├──────────────────────┼─────────────────────────────────┼────────────┤
+│ Karbon dioksid (CO₂) │ Yanacaq yandırma (nəqliyyat,   │    76%     │
+│                      │ elektrik, sənaye)               │            │
+├──────────────────────┼─────────────────────────────────┼────────────┤
+│ Metan (CH₄)          │ Kənd təsərrüfatı, zibil         │    16%     │
+├──────────────────────┼─────────────────────────────────┼────────────┤
+│ Azot oksidi (N₂O)    │ Torpaq gübrələməsi              │     6%     │
+├──────────────────────┼─────────────────────────────────┼────────────┤
+│ Digər qazlar         │ Sənaye prosesləri               │     2%     │
+└──────────────────────┴─────────────────────────────────┴────────────┘
+```
+
+## İqlim Dəyişikliyinin Təsirləri
+
+İqlim dəyişikliyi dünyada müxtəlif problemlərə səbəb olur:
+
+### 1. Buzlaqların Əriməsi
+Arktika və Antarktikada buzlaqlar ərir. Bu, dəniz səviyyəsinin qalxmasına səbəb olur. Bəzi adalar və sahil şəhərləri su altında qala bilər.
+
+### 2. Həddindən Artıq İsti
+Bəzi bölgələrdə temperatur 40°C-dən yuxarı çıxır. Bu, insanlara və heyvanlara təhlükəlidir.
+
+### 3. Quraqlıq və Daşqınlar
+Bəzi yerlərdə yağış azalır və quraqlıq olur. Digər yerlərdə isə həddindən artıq yağış yağır və daşqınlar baş verir.
+
+### 4. Heyvanlar və Bitkilər Təhlükədə
+Qütb ayıları buzlaqlar əridiyinə görə yaşayış yerlərini itirir. Bəzi bitkilər isə isti havalara dözə bilmir.
+
+**CƏDVƏL 2: Fərqli Ölkələrdə İqlim Dəyişikliyinin Təsiri**
+
+```
+┌─────────────────┬──────────────────────────────────────────────────┐
+│ Ölkə/Bölgə      │ Əsas Təsir                                       │
+├─────────────────┼──────────────────────────────────────────────────┤
+│ Maldiv adaları  │ Dəniz səviyyəsi qalxır, adalar su altında qalır │
+├─────────────────┼──────────────────────────────────────────────────┤
+│ Avstraliya      │ Meşə yanğınları artır, quraqlıq                 │
+├─────────────────┼──────────────────────────────────────────────────┤
+│ Banqladeş       │ Daşqınlar və fırtınalar tez-tez olur            │
+├─────────────────┼──────────────────────────────────────────────────┤
+│ Azərbaycan      │ Xəzər dənizinin səviyyəsi dəyişir, quraqlıq     │
+├─────────────────┼──────────────────────────────────────────────────┤
+│ Arktika         │ Buzlaqlar əriyir, qütb heyvanları təhlükədə     │
+└─────────────────┴──────────────────────────────────────────────────┘
+```
+
+## Biz Nə Edə Bilərik?
+
+İqlim dəyişikliyini tam dayandıra bilməsək də, onu yavaşlatmaq gücümüzdədir.
+
+### Fərdi Addımlar
+
+1. **Enerjiyə Qənaət**
+   - İşıqları söndürün
+   - Su qənaət edin
+   - Elektrik cihazlarını lazımsız işlətməyin
+
+2. **Nəqliyyat Seçimi**
+   - Mümkünsə piyada gedin və ya velosiped sürün
+   - İctimai nəqliyyatdan istifadə edin
+   - Bir maşında bir neçə nəfər gedin
+
+3. **Tullantıları Azaltın**
+   - Plastikdən az istifadə edin
+   - Kağız, plastik, metal təkrar emal edin
+   - Yemək israfını azaldın
+
+4. **Ağac Əkin**
+   - Ağaclar CO₂ udur və oksigen verir
+   - Hər ağac ildə təxminən 20 kq CO₂ udur
+
+### Ölkələrin Rolları
+
+Dünya ölkələri **Paris İqlim Sazişi** (2015) adlı beynəlxalq sənəd imzaladılar. Bu sazişdə ölkələr temperatur artımını 1.5°C-dən aşağı saxlamağı hədəfləyiblər.
+
+**QRAFİK: Ölkələrin CO₂ Emissiyası (milyard ton/il)**
+
+```
+Çin        ████████████████████████████████ 11.5
+ABŞ        ██████████████ 5.0
+Hindistan ███████ 2.7
+Rusiya     █████ 1.7
+Yaponiya   ████ 1.2
+Almaniya   ███ 0.8
+İran       ███ 0.7
+Azərbaycan █ 0.04
+
+0    2    4    6    8    10   12 (milyard ton)
+```
+
+## Gələcək Nəsillər Üçün
+
+İqlim dəyişikliyi bizim hamımızın problemidir. Hər kəsin kiçik addımları böyük dəyişikliklər yarada bilər.
+
+Düşün ki, hər insan gündə 1 kq-dan az tullantı istehsal etsə. Dünyada 8 milyard insan var. Bu, gündə 8 milyard kq tullantının azalması deməkdir!
+
+**Xatırla:**
+- İqlim dəyişikliyi realdır
+- Bizim hərəkətlərimiz fərq yaradır
+- Gələcək bizim əlimizdədir
+
+
+═══════════════════════════════════════════════════════════
+SUALLAR - İNFORMASİYA MƏTNİ 1: İqlim Dəyişikliyi və Biz
+═══════════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────────
+SUAL 1 | TİP: Çoxseçimli | PROSES: Literal | BAL: 1
+─────────────────────────────────────────────────────────
+
+Son 100 ildə Yerin orta temperaturu nə qədər artıb?
+
+A) 0.5°C
+B) 1.1°C
+C) 2.0°C
+D) 3.0°C
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 2 | TİP: Çoxseçimli | PROSES: Literal | BAL: 1
+─────────────────────────────────────────────────────────
+
+Cədvəl 1-ə görə, ən çox istixana qazı hansı mənbədən çıxır?
+
+A) Kənd təsərrüfatı
+B) Yanacaq yandırma
+C) Zibil
+D) Gübrə
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 3 | TİP: Çoxseçimli | PROSES: Literal | BAL: 1
+─────────────────────────────────────────────────────────
+
+Qrafikə görə, hansı ölkə ən çox CO₂ emissiya edir?
+
+A) ABŞ
+B) Rusiya
+C) Çin
+D) Hindistan
+
+DOĞRU CAVAB: C
+
+─────────────────────────────────────────────────────────
+SUAL 4 | TİP: Çoxseçimli | PROSES: Literal | BAL: 1
+─────────────────────────────────────────────────────────
+
+Hər ağac ildə təxminən neçə kq CO₂ udur?
+
+A) 5 kq
+B) 10 kq
+C) 20 kq
+D) 50 kq
+
+DOĞRU CAVAB: C
+
+─────────────────────────────────────────────────────────
+SUAL 5 | TİP: Çoxseçimli | PROSES: Inferensial | BAL: 2
+─────────────────────────────────────────────────────────
+
+Hava və iqlim arasındakı əsas fərq nədir?
+
+A) Hava daha isti olur
+B) Hava qısa müddət, iqlim uzun müddət göstəricisidir
+C) İqlim yalnız temperaturla əlaqəlidir
+D) Fərq yoxdur
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 6 | TİP: Çoxseçimli | PROSES: Inferensial | BAL: 2
+─────────────────────────────────────────────────────────
+
+Cədvəl 2-yə əsasən, hansı iki bölgə oxşar problemlə üzləşir?
+
+A) Maldiv və Avstraliya (su)
+B) Maldiv və Banqladeş (su və daşqın)
+C) Azərbaycan və Arktika (buz)
+D) Avstraliya və Banqladeş (yanğın)
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 7 | TİP: Çoxseçimli | PROSES: Inferensial | BAL: 2
+─────────────────────────────────────────────────────────
+
+Niyə plastikdən az istifadə etmək tövsiyə edilir?
+
+A) Plastik bahalıdır
+B) Plastik tullantı yaradır və təbiəti zədələyir
+C) Plastik ağırdır
+D) Plastik zəifdir
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 8 | TİP: Çoxseçimli | PROSES: Interpretive | BAL: 2
+─────────────────────────────────────────────────────────
+
+Mətn hansı əsas məqsədlə yazılıb?
+
+A) İnsanları qorxutmaq üçün
+B) İqlim haqqında məlumat vermək və həll yolları göstərmək
+C) Ölkələri tənqid etmək üçün
+D) Elm öyrətmək üçün
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 9 | TİP: Çoxseçimli | PROSES: Interpretive | BAL: 2
+─────────────────────────────────────────────────────────
+
+Cədvəl və qrafiklər mətnə necə kömək edir?
+
+A) Mətni gözəl göstərir
+B) Məlumatı vizual və anlaşılan edir
+C) Yalnız rəqəmlər verir
+D) Mətni uzadır
+
+DOĞRU CAVAB: B
+
+─────────────────────────────────────────────────────────
+SUAL 10 | TİP: Çoxseçimli | PROSES: Evaluative | BAL: 3
+─────────────────────────────────────────────────────────
+
+Mətnin sonunda "Gələcək bizim əlimizdədir" ifadəsi nəyi ifadə edir?
+
+A) Heç nə edə bilmərik
+B) Yalnız gələcək nəsillər düzəldə bilər
+C) Bizim indiki hərəkətlərimiz gələcəyi formalaşdırır
+D) Gələcək bəllidir
+
+DOĞRU CAVAB: C
+
+─────────────────────────────────────────────────────────
+SUAL 11 | TİP: Açıq cavab | PROSES: Inferensial | BAL: 2
+─────────────────────────────────────────────────────────
+
+Cədvəl 1 və Cədvəl 2-ni müqayisə et. İqlim dəyişikliyinin səbəbi və nəticəsi arasında necə əlaqə var?
+
+CAVAB RUBRİKİ:
+2 bal: Şagird səbəb-nəticə əlaqəsini hər iki cədvəldən nümunələrlə göstərir
+1 bal: Ümumi əlaqəni qeyd edir, amma nümunə zəifdir
+0 bal: Cavab yoxdur və ya yanlışdır
+
+─────────────────────────────────────────────────────────
+SUAL 12 | TİP: Açıq cavab | PROSES: Inferensial | BAL: 2
+─────────────────────────────────────────────────────────
+
+Qrafikdə Azərbaycanın CO₂ emissiyası digər ölkələrlə müqayisədə azdır. Bu nə demək ola bilər? İki mümkün səbəb yaz.
+
+CAVAB RUBRİKİ:
+2 bal: İki müxtəlif və məntiqli səbəb göstərir (əhali, iqtisadiyyat, enerji mənbələri)
+1 bal: Bir səbəb və ya zəif izah
+0 bal: Cavab yoxdur
+
+─────────────────────────────────────────────────────────
+SUAL 13 | TİP: Açıq cavab | PROSES: Inferensial | BAL: 3
+─────────────────────────────────────────────────────────
+
+Mətndə "8 milyard insanın gündə 1 kq-dan az tullantı istehsal etməsi" nümunəsi verilir. Bu riyazi hesablamanı öz sözlərinlə izah et və niyə bu vacibdir?
+
+CAVAB RUBRİKİ:
+3 bal: Hesablamanı düzgün izah edir və əhəmiyyətini göstərir
+2 bal: Qismən düzgün izah
+1 bal: Çox sadə və ya qismən səhv
+0 bal: Cavab yoxdur
+
+─────────────────────────────────────────────────────────
+SUAL 14 | TİP: Açıq cavab | PROSES: Interpretive | BAL: 2
+─────────────────────────────────────────────────────────
+
+Mətn necə təşkil edilib? Əsas bölmələri sadalayaraq izah et ki, bu struktur məlumatı anlamağa necə kömək edir.
+
+CAVAB RUBRİKİ:
+2 bal: Struktur elementlərini (tərif → problem → təsirlər → həllər) qeyd edir və məqsədini izah edir
+1 bal: Bəzi elementləri qeyd edir
+0 bal: Cavab yoxdur və ya struktur başa düşülməyib
+
+─────────────────────────────────────────────────────────
+SUAL 15 | TİP: Açıq cavab | PROSES: Interpretive | BAL: 3
+─────────────────────────────────────────────────────────
+
+Müəllif cədvəl və qrafiklər əlavə etməklə hansı məlumatı daha effektiv çatdırmaq istəyir? Hər vizual element üçün bir nümunə ver.
+
+CAVAB RUBRİKİ:
+3 bal: Hər üç vizual elementi müzakirə edir və onların faydasını izah edir
+2 bal: 1-2 vizual elementi izah edir
+1 bal: Çox ümumi cavab
+0 bal: Cavab yoxdur
+
+─────────────────────────────────────────────────────────
+SUAL 16 | TİP: Açıq cavab | PROSES: Interpretive | BAL: 3
+─────────────────────────────────────────────────────────
+
+Mətnin "Fərdi Addımlar" bölməsində verilən məsləhətləri hansı yaş qrupları yerinə yetirə bilər? İzah et.
+
+CAVAB RUBRİKİ:
+3 bal: Müxtəlif yaş qruplarını müzakirə edir və konkret nümunələr verir
+2 bal: Ümumi fikir bildirir
+1 bal: Çox qısa cavab
+0 bal: Cavab yoxdur
+
+─────────────────────────────────────────────────────────
+SUAL 17 | TİP: Açıq cavab | PROSES: Evaluative | BAL: 3
+─────────────────────────────────────────────────────────
+
+Sənin fikrincə, mətnin məlumatları etibarlıdırmı? Hansı sübutlar bunu göstərir? Nümunələr gətir.
+
+CAVAB RUBRİKİ:
+3 bal: Məlumat mənbələrini (rəqəmlər, beynəlxalq saziş, elmi faktlar) qiymətləndirir
+2 bal: Bəzi elementləri qeyd edir
+1 bal: Sadə "bəli" və ya "xeyr"
+0 bal: Cavab yoxdur
+
+─────────────────────────────────────────────────────────
+SUAL 18 | TİP: Açıq cavab | PROSES: Evaluative | BAL: 3
+─────────────────────────────────────────────────────────
+
+Paris İqlim Sazişi barədə məlumat mətndə az verilir. Sənin fikrincə, müəllif bu barədə daha çox məlumat verməliydi, yoxsa kifayətdir? Niyə?
+
+CAVAB RUBRİKİ:
+3 bal: Mətn strukturunu və məqsədini qiymətləndirərək əsaslandırılmış fikir bildirir
+2 bal: Fikir var, amma əsaslandırma zəifdir
+1 bal: Sadə cavab
+0 bal: Cavab yoxdur
+
+
+═══════════════════════════════════════════════════════════
+SUALLAR ÜZRƏ STATISTIKA
+═══════════════════════════════════════════════════════════
+
+Çoxseçimli suallar: 10
+Açıq cavab sualları: 8
+TOPLAM: 18 sual
+
+Proses bölgüsü:
+- Literal: 4 sual (cədvəl/qrafik oxuma)
+- Inferensial: 6 sual (cədvəl müqayisə, məlumat əlaqələndirmə)
+- Interpretive: 5 sual (struktur, vizual elementlər)
+- Evaluative: 3 sual (mənbə qiymətləndirmə)
+
+Bal bölgüsü:
+- 1 bal: 4 sual
+- 2 bal: 9 sual
+- 3 bal: 5 sual
+TOPLAM BAL: 36
+
+═══════════════════════════════════════════════════════════
+VİZUAL ELEMENTLƏR QEYDLƏRİ
+═══════════════════════════════════════════════════════════
+
+CƏDVƏL 1: İstixana qazları və mənbələri (4 sətir, 3 sütun)
+CƏDVƏL 2: Ölkələr və təsirlər (5 sətir, 2 sütun)
+QRAFİK: Horizontal bar chart - 8 ölkənin emissiyası
+
+Bu vizual elementlər testə asanlıqla əlavə edilə bilər:
+- Cədvəllər sadə HTML və ya Excel formatında
+- Qrafik istənilən qrafik proqramda yaradıla bilər
+- ASCII versiya yalnız kod üçündür
+
+═══════════════════════════════════════════════════════════

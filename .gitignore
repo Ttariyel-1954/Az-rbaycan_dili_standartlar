@@ -1,11 +1,50 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.env
-.Renviron
-data/raw/*.pdf
+*.Rproj
+
+# Data və Export faylları
+*.json
+*.csv
+*.xlsx
+*.xls
+baza_data.json
+
+# Output qovluqları
+output/
+archive_old/
+
+# Database backups
+database/backups/*.sql
+
+# OS faylları
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp faylları
+*.tmp
+*.bak
+~$*
+*~
+
+# Logs
 *.log
-*.sql.gz
-*.dump
+logs/
+
+# Environment
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Node (əgər istifadə olunarsa)
+node_modules/
